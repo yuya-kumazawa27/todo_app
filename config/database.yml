@@ -1,47 +1,47 @@
-# default: &default
-#   adapter: mysql2
-#   encoding: utf8mb4
-#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-#   username: root
-#   password:
-#   socket: /tmp/mysql.sock
-
-# development:
-#   <<: *default
-#   database: todo_app_development
-
-
-# test:
-#   <<: *default
-#   database: todo_app_test
-
-
-# production:
-#   <<: *default
-#   database: todo_app_production
-#   username: todo_app
-#   password: <%= ENV['TODO_APP_DATABASE_PASSWORD'] %>
-
 default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: 
+  password:
   socket: /tmp/mysql.sock
 
 development:
   <<: *default
   database: todo_app_development
 
+
 test:
   <<: *default
   database: todo_app_test
 
+
 production:
   <<: *default
-  host: <%= ENV['DB_HOSTNAME'] %>
-  database: <%= ENV['DB_NAME'] %>
-  username: <%= ENV['DB_USERNAME'] %>
-  password: <%= ENV['DB_PASSWORD'] %>
+  database: todo_app_production
+  username: todo_app
+  password: <%= ENV['TODO_APP_DATABASE_PASSWORD'] %>
 
+# default: &default
+#   adapter: mysql2
+#   encoding: utf8mb4
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#   username: root
+#   password: 
+#   socket: /tmp/mysql.sock
+
+# development:
+#   <<: *default
+#   database: todo_app_development
+
+# test:
+#   <<: *default
+#   database: todo_app_test
+
+# production:
+#   <<: *default
+#   host: db
+#   database: chat-space_development
+#   username: root
+#   password: <%= ENV['DATABASE_PASSWORD'] %>
+#   socket: /var/lib/mysql/mysql.sock
