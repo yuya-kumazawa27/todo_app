@@ -38,7 +38,8 @@ LINEにて文字を入力します
 ![image](https://user-images.githubusercontent.com/61692101/80792250-036a2300-8bcf-11ea-8510-bdf99c3606d7.png)  
   
 herokuサイトを確認します  
-! https://gyazo.com/104b744d834baba1f13e72f537f59584
+![image](https://user-images.githubusercontent.com/61692101/80792549-a4f17480-8bcf-11ea-9b9d-fdf5ffa1dc0f.png)  
+  
 
 # 今後について  
 個人用に作成したため、大きな変更は加えない予定ですがログイン機能を実装することで、個々人のページでタスク管理をできるようにしていけばよりアプリとしての使用感は上がると考えております。
