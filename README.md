@@ -35,7 +35,7 @@ LINE appの使用
 LINEにて『アプリを開発するんジャー』を友達登録し、その中で発言ことによって上記herokuサイトにタスク管理メモが残されます。
 
 LINEにて文字を入力します  
-! Screenshot_20200501-170500.png
+https://user-images.githubusercontent.com/61692101/80792250-036a2300-8bcf-11ea-8510-bdf99c3606d7.png
 
 herokuサイトを確認します  
 ! https://gyazo.com/104b744d834baba1f13e72f537f59584
