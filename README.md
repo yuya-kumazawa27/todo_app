@@ -15,7 +15,7 @@ Things you may want to cover:
 mysql version 5.6
 
 * Deployment instructions  
-heroku
+heroku  
 https://todo-app-with-me.herokuapp.com/tasks/index
 
 * ...
